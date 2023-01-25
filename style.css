@@ -35,7 +35,7 @@ nav{
 }
 b{
     font-size: 70px;
-    color: darkorchid;
+    color: blue;
 }
 .navItems{
     display: flex;
@@ -45,19 +45,19 @@ b{
     margin: 0 15px;
 }
 .navItems li a{
-    font-size: 25px;
+    font-size: 20px;
     color: aliceblue;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
 }
 .navItems li:hover a,
-.link a:hover{
+.links a:hover{
     color: blueviolet;
 }
-.link a{
+.links a{
     font-size: 30px;
-    color: blueviolet;
+    color: blue;
     margin: 25px 10px;
 }
 .wrapper{
