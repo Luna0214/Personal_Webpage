@@ -24,7 +24,7 @@ nav{
     z-index: 111;
     background-color: cornflowerblue;
 }
-.logo{
+.logo a{
     display: flex;
     font-size: 40px;
     font-weight: 800;
@@ -33,9 +33,10 @@ nav{
     cursor: pointer;
     text-transform: uppercase;
 }
-b{
-    font-size: 70px;
-    color: blue;
+.logo a:hover{
+    color: midnightblue;
+    text-decoration: none;
+    transition: color 0.4s linear;
 }
 .navItems{
     display: flex;
@@ -53,11 +54,11 @@ b{
 }
 .navItems li:hover a,
 .links a:hover{
-    color: blueviolet;
+    color: midnightblue;
 }
 .links a{
     font-size: 30px;
-    color: blue;
+    color: whitesmoke;
     margin: 25px 10px;
 }
 .wrapper{
@@ -152,16 +153,19 @@ button{
     cursor: pointer;
     font-size: 25px;
     font-weight: 400;
-    color: cornsilk;
-    background-color: blue;
+    color: white;
+    background-color: blueviolet;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
     text-transform: capitalize;
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+    transition: color 0.4s linear;
+    border-radius: 8px;
 }
 button:hover{
-    background-color: blueviolet;
+    color: orange;
+    background-color: black;
 }
 .imgbox{
     position: relative;
@@ -174,9 +178,9 @@ button:hover{
     width: 100%;
     top: -50px;
     right: 30px;
-    animation: animateUser 4s linear infinite;
+    animation: animateBrain 4s linear infinite;
 }
-@keyframes animateUser {
+@keyframes animateBrain {
     50%{
         right: 10px;
         top: -25px;
