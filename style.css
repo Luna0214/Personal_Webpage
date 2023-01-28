@@ -236,12 +236,12 @@ button:hover{
     background-size: cover;
     background-position: center center;
     top: 100px;
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     aspect-ratio: 16 / 9;
 }
 .banner h2{
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 70px;
     color: aliceblue;
     margin-left: 8%;
