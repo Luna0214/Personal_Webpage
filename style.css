@@ -272,7 +272,7 @@ button:hover{
     font-weight: 300;
     font-size: 18px;
     margin-bottom: 40px;
-    width: 30vw;
+    width: 40vw;
 }
 
 /* -- Skill Section --*/
@@ -341,7 +341,7 @@ button:hover{
 
 /* -- Contact Section --*/
 .contact-section{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
