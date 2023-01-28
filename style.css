@@ -5,25 +5,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-
 }
 body{
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
     background-size: cover;
     background-color: aliceblue;
     overflow: scroll;
+    aspect-ratio: 16 / 9;
 }
 footer{
     display: table;
     width: 180px;
+    min-height: 0px;
     background-color: aliceblue;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .footer-section{
+    display: flexbox;
     color: darkgray;
+    height: 50px;
+    margin-bottom: 0;
 }
 .footer-section h5{
     font-size: 14px;
@@ -127,7 +132,7 @@ nav{
     }
 }
 .cols{
-    width: 50%;
+    width: 40%;
 }
 .cols0{
     width: 60%;
@@ -157,6 +162,7 @@ h1{
 .multiText{
     color: blueviolet;
     text-transform: capitalize;
+    font-size: 100px;
 }
 p{
     display: block;
@@ -232,6 +238,7 @@ button:hover{
     top: 100px;
     height: 30vh;
     width: 100%;
+    aspect-ratio: 16 / 9;
 }
 .banner h2{
     padding-top: 5%;
@@ -250,7 +257,7 @@ button:hover{
     margin: 100px 400px;
 }
 #profile-picture{
-    width: 400px;
+    width: 380px;
     height: 500px;
     margin-right: 120px;
 }
@@ -265,6 +272,7 @@ button:hover{
     font-weight: 300;
     font-size: 18px;
     margin-bottom: 40px;
+    width: 30vw;
 }
 
 /* -- Skill Section --*/
@@ -329,4 +337,27 @@ button:hover{
     .skill-section{
         grid-template-columns: 1fr;
     } 
+}
+
+/* -- Contact Section --*/
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 80px;
+    font-size: 2rem;
+}
+.contact-box{
+    margin-left: 2%;
+    margin-top: 10%;
+    width: 500px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.contact-box p{
+    margin-left: 5%;
+}
+.contact-icon{
+    font-size: 50px;
 }
